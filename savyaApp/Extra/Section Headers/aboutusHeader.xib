@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="aboutusHeader" customModule="Savya_Jewels_Business" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tgj-ga-Gbj">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="JZT-zC-9w2">
+                            <rect key="frame" x="8" y="8" width="359" height="54"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="03Z-sT-CiF">
+                                    <rect key="frame" x="0.0" y="0.0" width="179.5" height="54"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQY-Cr-lSD">
+                                            <rect key="frame" x="8" y="8" width="171.5" height="38"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <state key="normal" title="About US">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="nQY-Cr-lSD" secondAttribute="trailing" id="7JF-ik-Pla"/>
+                                        <constraint firstItem="nQY-Cr-lSD" firstAttribute="top" secondItem="03Z-sT-CiF" secondAttribute="top" constant="8" id="HTG-Fm-puO"/>
+                                        <constraint firstItem="nQY-Cr-lSD" firstAttribute="leading" secondItem="03Z-sT-CiF" secondAttribute="leading" constant="8" id="nEM-eN-ovp"/>
+                                        <constraint firstAttribute="bottom" secondItem="nQY-Cr-lSD" secondAttribute="bottom" constant="8" id="x2a-w9-rLt"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8LF-eT-xvq">
+                                    <rect key="frame" x="179.5" y="0.0" width="179.5" height="54"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jg9-JB-VQ1">
+                                            <rect key="frame" x="0.0" y="8" width="171.5" height="38"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <state key="normal" title="Contact US">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Jg9-JB-VQ1" secondAttribute="trailing" constant="8" id="W8W-sO-97u"/>
+                                        <constraint firstAttribute="bottom" secondItem="Jg9-JB-VQ1" secondAttribute="bottom" constant="8" id="ayV-OP-0oY"/>
+                                        <constraint firstItem="Jg9-JB-VQ1" firstAttribute="leading" secondItem="8LF-eT-xvq" secondAttribute="leading" id="rlR-F4-G2v"/>
+                                        <constraint firstItem="Jg9-JB-VQ1" firstAttribute="top" secondItem="8LF-eT-xvq" secondAttribute="top" constant="8" id="zSU-cI-G3b"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="JZT-zC-9w2" secondAttribute="bottom" constant="8" id="1Dx-NO-e1B"/>
+                        <constraint firstItem="JZT-zC-9w2" firstAttribute="top" secondItem="tgj-ga-Gbj" secondAttribute="top" constant="8" id="EO2-4c-o7I"/>
+                        <constraint firstItem="JZT-zC-9w2" firstAttribute="leading" secondItem="tgj-ga-Gbj" secondAttribute="leading" constant="8" id="l3E-e8-Qm9"/>
+                        <constraint firstAttribute="trailing" secondItem="JZT-zC-9w2" secondAttribute="trailing" constant="8" id="x6v-n0-fxH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tgj-ga-Gbj" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="LMH-xG-d6R"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tgj-ga-Gbj" secondAttribute="trailing" id="bYi-nQ-lP2"/>
+                <constraint firstItem="tgj-ga-Gbj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hCA-I1-fjy"/>
+                <constraint firstAttribute="bottom" secondItem="tgj-ga-Gbj" secondAttribute="bottom" id="pBr-nY-Dpv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="aboutusBtn" destination="nQY-Cr-lSD" id="RxS-mk-qAz"/>
+                <outlet property="contactusBtn" destination="Jg9-JB-VQ1" id="y87-MK-zHZ"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="48.575712143928037"/>
+        </view>
+    </objects>
+</document>

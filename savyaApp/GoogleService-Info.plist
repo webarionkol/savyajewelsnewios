@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>167903854236-i9hdr9uaou6mse0hpjli6q3tit4bhhh6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.167903854236-i9hdr9uaou6mse0hpjli6q3tit4bhhh6</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>167903854236-a0r471157mdlibquaokssngj9q94ruv5.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC7FoyRAJ8m4M_s3MsPhVhx7FKWmYGXZIM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>167903854236</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dev1.savyaApp</string>
+	<key>PROJECT_ID</key>
+	<string>savya-jewels-bussuiess</string>
+	<key>STORAGE_BUCKET</key>
+	<string>savya-jewels-bussuiess.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:167903854236:ios:4fdf62b993a44768bb7759</string>
+	<key>DATABASE_URL</key>
+	<string>https://savya-jewels-bussuiess.firebaseio.com</string>
+</dict>
+</plist>

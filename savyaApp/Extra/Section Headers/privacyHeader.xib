@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="privacyHeader" customModule="savyaApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CS1-2v-qZq">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGc-1F-nua">
+                            <rect key="frame" x="8" y="15" width="359" height="40"/>
+                            <state key="normal" title="Our Privacy Policy">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="VGc-1F-nua" firstAttribute="top" secondItem="CS1-2v-qZq" secondAttribute="top" constant="15" id="4uk-ec-ZSb"/>
+                        <constraint firstAttribute="trailing" secondItem="VGc-1F-nua" secondAttribute="trailing" constant="8" id="DGr-Ep-Fqg"/>
+                        <constraint firstAttribute="bottom" secondItem="VGc-1F-nua" secondAttribute="bottom" constant="15" id="JcK-JZ-H45"/>
+                        <constraint firstItem="VGc-1F-nua" firstAttribute="leading" secondItem="CS1-2v-qZq" secondAttribute="leading" constant="8" id="ioG-kC-4U5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="CS1-2v-qZq" secondAttribute="bottom" id="8Xt-Wq-9mP"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CS1-2v-qZq" secondAttribute="trailing" id="Afk-oJ-Neb"/>
+                <constraint firstItem="CS1-2v-qZq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="TeR-t3-IAh"/>
+                <constraint firstItem="CS1-2v-qZq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="hGc-PA-MLH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="privacyBtn" destination="VGc-1F-nua" id="0ks-0L-gFm"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="48.575712143928037"/>
+        </view>
+    </objects>
+</document>
